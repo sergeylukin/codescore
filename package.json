@@ -1,9 +1,9 @@
 {
-  "name": "loc",
-  "version": "1.0.0",
+  "name": "codescore",
+  "version": "0.1.1",
   "main": "bin/index.js",
   "bin": {
-    "count": "./bin/index.js"
+    "codescore": "./bin/index.js"
   },
   "license": "MIT",
   "dependencies": {
