@@ -1,6 +1,6 @@
 {
   "name": "codescore",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "bin/index.js",
   "bin": {
     "codescore": "./bin/index.js"

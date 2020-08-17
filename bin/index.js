@@ -6,6 +6,7 @@ const resolve = require('path').resolve
 const fs = require('fs')
 
 const options = yargs
+  .demand(1)
   .usage("Usage: count -p <path to project> -g '<group name> <dir regex> <file regex>' -g '<group name> <dir regex> <file regex>'")
   .command("count", "Count lines of code in different parts of projects by groups")
   .option("p", { alias: "path", descript: "Path to repo", type: "string", demandOption: true})
